@@ -15,7 +15,7 @@ const DevSkills = () => {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0}}
       transition={{ duration: 0.8, delay: .25 }}
-      className='flex flex-col xl:flex-row justify-between items-center'>
+      className='flex flex-col xl:flex-row justify-center items-center'>
         <SkillsContainer title={'front end:'}>
 
          {skillsFE.map(skill => (
@@ -34,7 +34,8 @@ const DevSkills = () => {
           </div>
     
         </SkillsContainer>
-          
+
+         {/* Back End code 
         <SkillsContainer title='back end:'>
         {skillsBE.map(skill => (
           <Skill key={skill.description}
@@ -52,6 +53,9 @@ const DevSkills = () => {
           </div>
           
         </SkillsContainer>
+        */}
+
+      
 
       </motion.div>
       <motion.div
