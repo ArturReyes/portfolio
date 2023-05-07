@@ -30,7 +30,7 @@ const DevSkills = () => {
 
           <div>
           <NextjsSVG size={iconSize} classes={imageClasses + ' fill-slate-200'} />
-          <span className='text-xs capitalize opacity-30 tracking-tightest mt-2'>nextjs</span>
+          <span className='text-xs capitalize tracking-tightest mt-2'>nextjs</span>
           </div>
     
         </SkillsContainer>
