@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    background-color: #232323;
+    background-color: #1A1A1A;
     color: #e8e8e8;
     overflow-x: hidden;
 }
@@ -12,3 +12,12 @@ h1, h2, h3, h4 {
     color: #fff;
 }
 
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: #CFF04A;
+  }
+  
+  ::selection {
+    color: black;
+    background: #CFF04A;
+  }

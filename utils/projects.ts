@@ -26,54 +26,35 @@ export const featuredProjects = [
 export const projects = [
     {
         src: '/gifs/budgetapp.gif',
-        title: 'budget app',
-        description: 'Budget tracking app to help users track their expenses and sources of income.',
+        title: 'greenhub',
+        description: 'Healthy and organic food restaurant website.',
         stack : {
-            fe: 'HTML, SASS and Javascript.'
+            fe: 'HTML, CSS, Javascript and Shuffle.dev.'
         },
-        demo: 'https://pedroenriquedev.github.io/budgetApp/',
-        repo: 'https://github.com/pedroenriquedev/budgetApp'
+        demo: 'https://greenhubfood.netlify.app/',
+        repo: 'https://github.com/ArturReyes/greenhub'
     },
     {
         src: '/gifs/gpacalculator.gif',
-        title: 'gpa calculator',
-        description: 'App that allows users to calculate their Grade Point Average (GPA) across multiple semesters and courses.',
+        title: 'el grafógrafo',
+        description: 'Custom website heavily inspired by brutalist web design.',
         stack : {
-            fe: 'HTML, SASS and Javascript.'
+            fe: 'HTML, CSS.'
         },
-        demo: 'https://pedroenriquedev.github.io/GPA-Calculator/',
-        repo: 'https://github.com/pedroenriquedev/GPA-Calculator'
+        demo: 'https://elgrafografo.netlify.app',
+        repo: 'https://github.com/ArturReyes/elgrafografo-library-master'
     },
     {
         src: '/gifs/pomodoroclockapp.gif',
-        title: 'pomodoro clock app',
-        description: 'Simple and effective tool designed to help users manage their time and boost productivity.',
+        title: 'pokedex',
+        description: 'Built with HTML, CSS, & JavaScript (via many features such as utilization of third-party APIs, async, await, & promises).',
         stack : {
-            fe: 'HTML, SASS and Javascript.'
+            fe: 'HTML, CSS and Javascript.'
         },
-        demo: 'https://pedroenriquedev.github.io/Pomodoro-clock/',
-        repo: 'https://github.com/pedroenriquedev/Pomodoro-clock'
+        demo: 'https://bulbapedia.netlify.app/',
+        repo: 'https://github.com/ArturReyes/pokedex'
     },
-    {
-        src: '/gifs/creditcardform.gif',
-        title: 'credit card form',
-        description: 'Credit card form design made with SCSS where the card flips over for better user experience.',
-        stack : {
-            fe: 'HTML, SASS and Javascript.'
-        },
-        demo: 'https://pedroenriquedev.github.io/CreditCardForm/',
-        repo: 'https://github.com/pedroenriquedev/CreditCardForm'
-    },
-    {
-        src: '/gifs/stopwatch.gif',
-        title: 'stopwtch app',
-        description: 'Stopwatch app. User can start, stop, resume, lap and reset the timer.',
-        stack : {
-            fe: 'HTML, SASS and Javascript.'
-        },
-        demo: 'https://pedroenriquedev.github.io/Stopwatch/',
-        repo: 'https://github.com/pedroenriquedev/Stopwatch'
-    },
+   
     {
         src: '/gifs/periodictable.gif',
         title: 'internet periodic table',
@@ -84,15 +65,6 @@ export const projects = [
         demo: 'https://pedroenriquedev.github.io/Periodic-table/',
         repo: 'https://github.com/pedroenriquedev/Periodic-table'
     },
-    {
-        src: '/gifs/calendarpage.png',
-        title: 'Calendar page',
-        description: 'Calendar template I found on Dribbble that I used to apply CSS Grid concepts and some advanced CSS selectors.',
-        stack : {
-            fe: 'HTML and SASS'
-        },
-        demo: 'https://pedroenriquedev.github.io/Calendar-css/',
-        repo: 'https://github.com/pedroenriquedev/Calendar-css'
-    },
+    
 
 ]
