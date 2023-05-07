@@ -29,8 +29,7 @@ const Navbar = () => {
           </button>
       <div className={`${!showNav && 'hidden'} w-full h-screen md:h-fit lg:w-5/6 xl:w-2/3 md:flex justify-between items-stretch content-center`}>
         <div className='hidden md:block'>
-          link
-            <SecondaryHeading text='Arturo Reyes' />
+            < SecondaryHeading text='Arturo Reyes' />
         </div>
         <div>
         </div>
